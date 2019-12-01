@@ -1,13 +1,21 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View } from 'react-native';
 import styles from './styles';
+import globalStyles from '../../utils/globalStyles';
 
-const Feed = () => {
-  return (
-    <View style={styles.container}>
-      <Text style={styles.text}>Hello</Text>
+// Components
+import Header from '../../components/header';
+import PostHeader from '../../components/postHeader';
+
+const Feed = () => (
+  <View style={styles.container}>
+    <View style={globalStyles.header}>
+      <Header />
     </View>
-  )
-}
+    <View style={styles.postHeader}>
+      <PostHeader />
+    </View>
+  </View>
+);
 
 export default Feed;
