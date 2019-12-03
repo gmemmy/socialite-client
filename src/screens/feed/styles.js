@@ -39,6 +39,15 @@ const styles = StyleSheet.create({
   },
   threeDotsIcon: {
     marginLeft: wp(60)
+  },
+  modalHeader: {
+    flexDirection: 'row',
+    marginTop: hp(4)
+  },
+  headerText: {
+    color: '#fff',
+    fontSize: hp(2.2),
+    fontWeight: 'bold'
   }
 });
 
