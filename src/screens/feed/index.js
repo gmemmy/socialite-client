@@ -7,7 +7,8 @@ import {
 } from 'react-native';
 import { Ionicons, Entypo } from '@expo/vector-icons';
 import {
-  heightPercentageToDP as hp
+  heightPercentageToDP as hp,
+  widthPercentageToDP as wp
 } from 'react-native-responsive-screen';
 import styles from './styles';
 import globalStyles from '../../utils/globalStyles';
@@ -15,6 +16,7 @@ import globalStyles from '../../utils/globalStyles';
 // Components
 import Header from '../../components/header';
 import PostHeader from '../../components/postHeader';
+import Comment from '../../components/comment';
 
 // Images
 const post = require('../../../assets/profile.jpg');
@@ -77,10 +79,17 @@ class Feed extends Component {
             <View style={styles.modalHeader}>
               <Text style={styles.headerText}>Comments</Text>
               <Text style={[styles.headerText, { color: '#626367' }]}>(20)</Text>
+              <TouchableOpacity style={{ marginLeft: 'auto', marginRight: wp(8) }}>
+                <Ionicons
+                  name="ios-arrow-down"
+                  size={25}
+                  style={{ color: '#4D80F7' }}
+                />
+              </TouchableOpacity>
             </View>
           )}
         >
-          <Text>Active Trekkers near you</Text>
+          <Comment />
         </Modalize>
       </View>
     );

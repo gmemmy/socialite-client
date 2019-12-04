@@ -42,7 +42,8 @@ const styles = StyleSheet.create({
   },
   modalHeader: {
     flexDirection: 'row',
-    marginTop: hp(4)
+    marginTop: hp(4),
+    marginLeft: wp(4)
   },
   headerText: {
     color: '#fff',
