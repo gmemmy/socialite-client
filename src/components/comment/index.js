@@ -7,7 +7,7 @@ import {
 } from 'react-native-responsive-screen';
 import styles from './styles';
 
-// Images
+// Image
 const profileImage = require('../../../assets/profile.jpg');
 
 const Comment = () => (
