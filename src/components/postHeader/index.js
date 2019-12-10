@@ -14,7 +14,7 @@ const PostHeader = () => (
       />
     </TouchableOpacity>
     <Text style={styles.username}>
-      Matt Wotjas
+      gmemmy
     </Text>
     <TouchableOpacity style={styles.followText}>
       <Text style={{ color: '#4D80F7', fontWeight: 'bold' }}>

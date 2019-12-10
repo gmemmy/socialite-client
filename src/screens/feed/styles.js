@@ -49,6 +49,22 @@ const styles = StyleSheet.create({
     color: '#fff',
     fontSize: hp(2.2),
     fontWeight: 'bold'
+  },
+  commentView: {
+    backgroundColor: '#2A2C31',
+    marginTop: hp(2),
+    paddingHorizontal: wp(4),
+    height: hp(15),
+    justifyContent: 'center',
+    borderTopLeftRadius: wp(5)
+  },
+  commentHeader: {
+    color: '#fff',
+    fontWeight: 'bold'
+  },
+  commentButtons: {
+    color: '#fff',
+    fontWeight: 'bold'
   }
 });
 

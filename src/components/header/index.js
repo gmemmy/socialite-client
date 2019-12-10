@@ -15,7 +15,7 @@ const Header = () => (
       />
     </TouchableOpacity>
     <Text style={styles.headerText}>
-      @matt.wotjas
+      posts
     </Text>
     <TouchableOpacity>
       <Entypo

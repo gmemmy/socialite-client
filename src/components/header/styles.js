@@ -5,7 +5,7 @@ import {
 
 const styles = StyleSheet.create({
   headerText: {
-    marginLeft: wp(30),
+    marginLeft: wp(38),
     color: '#ffff',
     fontWeight: 'bold',
     textAlign: 'center'
@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
     marginLeft: wp(4)
   },
   threeDotsIcon: {
-    marginLeft: wp(25)
+    marginLeft: wp(30)
   }
 });
 
